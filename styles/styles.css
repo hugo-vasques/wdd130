@@ -10,7 +10,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(69, 69, 212);
 }
 
 main img {
@@ -22,7 +22,7 @@ main img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 aside {
@@ -38,6 +38,10 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+}
+
+p {
+    padding: 0;
 }
 
 footer {
