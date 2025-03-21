@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #6AB547;
+    --secondary-color: #628B48;
+    --text-color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Oswald;
+    color: var(--primary-color);
+}
+
+p {
+    font-family: Archivo Narrow;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color)
+}
+
+a image {
+    text-decoration: none;
+    border: none;
+}
+
+.hero img {
+    
+}
