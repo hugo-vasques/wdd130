@@ -4,91 +4,62 @@
     --text-color: #333;
 }
 
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
+header,
+main,
+footer {
+    max-width: 800px;
 }
 
 h1,
 h2,
 h3 {
-    font-size: 40px;
+    font-size: 30px;
     font-family: Oswald;
     color: var(--primary-color);
 }
 
 p {
     font-family: Archivo Narrow;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5;
     color: var(--text-color)
 }
 
-a img {
-    text-decoration: none;
-    border: none;
+.logo {
+    max-width: 200px;
 }
 
 .hero {
+    display: block;
     position: relative;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px 20px;
-    text-align: center;
-}
-
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    width: 300px;
-}
-
-article img {
+.h1-image {
     float: right;
-    margin-left: 10px;
-    width: 50px;
-    height: auto;
 }
 
-.logo {
-    width: 200px;
-    height: auto;
-    display: block;
+.slogan {
+    top: 0px;
+    left: 130px;
+    color: white;
+    background-color: rgb(128, 128, 128, 0.65);
+    font-size: 35px;
+    position: absolute;
 }
 
-.h2-container {
-    display: block;
-    align-items: column;
-    gap: 20px;
+.article-1 {
+    top: 150px;
+    left: 50px;
+    font-size: 20px;
+    position: absolute;
+    background-color: rgb(206, 212, 211, 0.65);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 600px;
 }
 
-.h2-container img {
-    width: 500px;
-    height: auto;
+.sociallinks {
+    text-decoration: none;
 }
-
-
-.footer img {
-    width: 65px;
-    display: auto;
-    height: 65px;
-}
-
-/* In the <h2> I tried to align te images so they can go like a column, but I tried and I didn't find how to do it */
