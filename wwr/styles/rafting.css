@@ -26,7 +26,9 @@ p {
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .hero {
@@ -62,4 +64,33 @@ p {
 
 .sociallinks {
     text-decoration: none;
+}
+
+header {
+    margin: auto;
+    display: grid;
+}
+
+
+.nav1 {
+    background-color: #628B48;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    font-size: 25px;
+    font-family: Archivo Narrow;
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 1rem;
 }
