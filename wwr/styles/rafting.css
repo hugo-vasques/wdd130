@@ -33,10 +33,16 @@ footer {
     position: relative;
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .hero h1 {
     position: absolute;
     top: 0.5em;
-    left: 23%;
+    left: 30%;
     background-color: rgb(206, 212, 211, 0.65);
     color: var(--accent2-color);
 }
@@ -44,9 +50,9 @@ footer {
 .hero article {
     position: absolute;
     background-color: rgb(206, 212, 211, 0.65);
-    top: 6rem;
+    top: 9rem;
     left: 2rem;
-    right: 13rem;
+    right: 2rem;
 }
 
 .hero article img {
@@ -62,8 +68,14 @@ footer {
     text-align: justify;
 }
 
-.sociallinks img{
-    width: 3em;
+.sociallinks img {
+    width: 2.5em;
+    padding: 5px;
+}
+
+.sociallinks {
+    grid-column: 3;
+    justify-self: end;
 }
 
 footer {
@@ -72,5 +84,6 @@ footer {
     color: white;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 1rem;
-    
+    font-size: 1.5em;
+    align-content: space-between;
 }
