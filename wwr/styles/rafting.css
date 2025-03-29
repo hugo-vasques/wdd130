@@ -166,3 +166,10 @@ header ul li a.active {
     font-size: 40px;
     color: #628B48;
 }
+
+.h2-title {
+    font-size: 45px;
+    text-align: center;
+    color: #628B48;
+    padding: 0.5em 0.5em 0.5em;
+}
