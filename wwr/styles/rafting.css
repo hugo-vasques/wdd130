@@ -32,6 +32,7 @@ footer {
 .logo {
     width: 100px;
     height: auto;
+    border-radius: 1rem;
 }
 
 header {
@@ -142,6 +143,7 @@ header ul li a.active {
     object-fit: cover;
     vertical-align: middle;
     padding-top: 1.5em;
+    border-radius: 5rem;
 }
 
 .our-history {
@@ -154,5 +156,13 @@ header ul li a.active {
 }
 
 .intro {
+    line-height: 1.5;
     flex: 1;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.title2 {
+    font-size: 40px;
+    color: #628B48;
 }
