@@ -136,3 +136,23 @@ header ul li a.active {
     border-bottom: 2px var(--secondary-color);
 }
 
+.history-img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+    padding-top: 1.5em;
+}
+
+.our-history {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.intro {
+    flex: 1;
+}
