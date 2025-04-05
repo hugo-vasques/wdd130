@@ -228,7 +228,7 @@ legend {
     text-align: center;
     padding: 0.5rem;
     color: #333;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -338,3 +338,9 @@ figcaption {
     font-size: 25px;
     color: #628B48;
 }
+
+.map-frame {
+    border: none;
+    width: 555px;
+    height: 300px;
+  }
