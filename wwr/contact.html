@@ -33,32 +33,43 @@
         </nav>
     </header>
     <main>
-        <div class="contactUs">
-            <div class="title">
-                <h1>Contact Us</h1>
-            </div>
-            <div class="box">
-                <div class="contact form"></div>
-                <div class="contact info"></div>
-                <div class="contact map"></div>
-            </div>
-        </div>
-
-        
-        <footer class="footer">
-            <p>©2025 | White Water Rafting | Hugo Vásquez</p>
-            <nav class="sociallinks">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.png" alt="Facebook">
-                </a>
-                <a href="https://x.com">
-                    <img src="images/twitter.png" alt="Twitter">
-                </a>
-                <a href="https://instragram.com">
-                    <img src="images/ig.png" alt="Instragram">
-                </a>
-            </nav>
-        </footer>
+        <h2>Contact Us</h2>
+        <form>
+            <fieldset>
+                <legend>Send us a message</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="usermail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Reasons for reaching us</legend>
+                <label for="options">Please, select one of this options:</label>
+                <select id="options" name="options">
+                    <option value="question1">General Inquirity</option>
+                    <option value="question2">Reservation Question</option>
+                    <option value="question3">Website Question</option>
+                </select>
+                <label for="news">Check for monthly newsletter</label>
+                <input type="checkbox" id="news" name="news">
+            </fieldset>
+            <button type="submit">Submit!</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <p>©2025 | White Water Rafting | Hugo Vásquez</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://x.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instragram.com">
+                <img src="images/ig.png" alt="Instragram">
+            </a>
+        </nav>
+    </footer>
 </body>
 
 </html>
