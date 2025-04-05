@@ -194,3 +194,148 @@ figcaption {
     font-size: 20px;
     color: #628B48;
 }
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+body {
+    font-family: 'Archivo Narrow', 'Poppins', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+}
+
+form {
+    width: 605px;
+    margin: 0;
+    border: 1px solid rgb(0 0 0 / 0.5);
+    border-radius: 0.5rem;
+    background-color: #EDD83D;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.5);
+    padding: 1rem;
+}
+
+legend {
+    text-align: center;
+    padding: 0.5rem;
+    color: #333;
+    font-size: 1.3em;
+    font-family: 'Poppins', sans-serif;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Archivo Narrow, Poppins, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: lightblue;
+    color: #333;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    background-color: darkcyan;
+    transition: 0.10s;
+}
+
+.contactBox {
+    border: 1px solid rgb(0 0 0 / 0.5);
+    border-radius: 0.5rem;
+    padding: 10px;
+    display: flexbox;
+}
+
+.contact-wrapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: left;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.infoSection {
+    color: #333;
+    max-width: 450px;
+    background-color: #EDD83D;
+    border: 1px solid rgb(0 0 0 / 0.5);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 2.5em;
+    padding-right: 14rem;
+}
+
+.map-container {
+    color: #333;
+    max-width: 650px;
+    background-color: #EDD83D;
+    border: 1px solid rgb(0 0 0 / 0.5);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 2.5em;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.staff {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 2fr));
+    gap: 4rem;
+    padding: 0 0 .5rem;
+    margin: 0 auto;
+}
+
+.staff img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+figcaption {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: #628B48;
+}
