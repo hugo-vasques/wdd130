@@ -343,4 +343,8 @@ figcaption {
     border: none;
     width: 555px;
     height: 300px;
-  }
+}
+
+.footContact {
+    font-size: 20px;
+}
