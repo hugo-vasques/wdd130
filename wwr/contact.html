@@ -34,34 +34,57 @@
     </header>
     <main>
         <h2>Contact Us</h2>
-        <form>
-            <fieldset>
-                <legend>Send us a message</legend>
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
-                <label for="usermail">Email:</label>
-                <input type="email" id="useremail" name="useremail">
-            </fieldset>
-            <fieldset>
-                <legend>Reasons for reaching to us</legend>
-                <label for="options">Please, select one of this options:</label>
-                <select id="options" name="options">
-                    <option value="question1">General Inquirity</option>
-                    <option value="question2">Reservation Question</option>
-                    <option value="question3">Website Question</option>
-                </select>
-                <label for="news">Check for monthly newsletter</label>
-                <input type="checkbox" id="news" name="news">
-            </fieldset>
-            <button type="submit">I'm ready!</button>
-        </form>
-        ‎
-        <div class="infoSection">
-        <h3>Contact Info</h3>
-        <p>Jr. Ica 917 Jesus, Cajamarca</p>
-        <p>972 098 339 / 976 136 262</p>
-        <p>prom23hugomarcelo.sa@gmail.com</p>
+        <div class="contact-wrapper">
+            <form>
+                <fieldset>
+                    <legend>Send us a message</legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Reasons for reaching to us</legend>
+                    <p>Please select a topic:</p>
+                    <label>
+                        <input type="radio" name="options" value="question1">
+                        General Inquiry
+                    </label><br>
+                    <label>
+                        <input type="radio" name="options" value="question2">
+                        Reservation Question
+                    </label><br>
+                    <label>
+                        <input type="radio" name="options" value="question3">
+                        Website Question
+                    </label>
+                    <label for="news">Check for monthly newsletter</label>
+                    <input type="checkbox" id="news" name="news">
+                </fieldset>
+                <button type="submit">I'm ready!</button>
+            </form>
+            <section class="infoSection">
+                <h3>Contact Info</h3>
+                <p>Jr. Ica 917 Jesus, Cajamarca</p>
+                <p>972 098 339 / 976 136 262</p>
+                <p>prom23hugomarcelo.sa@gmail.com</p>
+            </section>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d710.5076279233157!2d-78.38064096059469!3d-7.25174355911257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sJir%C3%B3n%20Ica%20917%20Cajamarca!5e1!3m2!1ses!2spe!4v1743815159175!5m2!1ses!2spe"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
         </div>
+        <section class="employees">
+            <h4>Our Staff</h4>
+            <div class="staff">
+                <figure>
+                    <img src="images/employee1" alt="Our C.E.O">
+                </figure>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <p>©2025 | White Water Rafting | Hugo Vásquez</p>

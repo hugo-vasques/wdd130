@@ -192,5 +192,36 @@ button:hover {
     border-radius: 0.5rem;
     padding: 10px;
     display: flexbox;
-    
+}
+
+.contact-wrapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: left;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.infoSection {
+    color: #333;
+    max-width: 450px;
+    background-color: #EDD83D;
+    border: 1px solid rgb(0 0 0 / 0.5);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 2.5em;
+    padding-right: 14rem;
+}
+
+.map-container {
+    color: #333;
+    max-width: 650px;
+    background-color: #EDD83D;
+    border: 1px solid rgb(0 0 0 / 0.5);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 2.5em;
 }
