@@ -348,3 +348,43 @@ figcaption {
 .footContact {
     font-size: 20px;
 }
+
+.redirectionButton {
+    background-color: #5054c6;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 12px;
+}
+
+.hero-text {
+    position: relative;
+    align-items: center;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 3em;
+}
+
+.hero-text h1 {
+    position: absolute;
+    top: 3.5em;
+    color: #333;
+    font-size: 2.5em;
+    left: 2%;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-text p {
+    position: absolute;
+    top: 8em;
+    color: #333;
+    left: 22%;
+    font-size: 35px;
+    font-family: "Archivo Narrow", sans-serif;
+}
