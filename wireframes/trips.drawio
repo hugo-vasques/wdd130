@@ -177,7 +177,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hIjkYLytyyZ2hRDvCaDV-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1300" width="420" height="270" as="geometry" />
+          <mxGeometry x="210" y="1290" width="420" height="270" as="geometry" />
         </mxCell>
         <mxCell id="_3MZA-FHrIc1hK6y-JxS-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="890" width="240" height="380" as="geometry" />
@@ -210,19 +210,19 @@
           <mxGeometry x="250" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MOcgg1K4ESOzGloLZr19-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="9" y="1630" width="810" height="100" as="geometry" />
+          <mxGeometry x="9" y="1590" width="810" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MOcgg1K4ESOzGloLZr19-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" parent="1" vertex="1">
-          <mxGeometry x="629" y="1655" width="50" height="50" as="geometry" />
+          <mxGeometry x="629" y="1615" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MOcgg1K4ESOzGloLZr19-3" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" parent="1" vertex="1">
-          <mxGeometry x="689" y="1655" width="50" height="50" as="geometry" />
+          <mxGeometry x="689" y="1615" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MOcgg1K4ESOzGloLZr19-4" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" parent="1" vertex="1">
-          <mxGeometry x="749" y="1655" width="50" height="50" as="geometry" />
+          <mxGeometry x="749" y="1615" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MOcgg1K4ESOzGloLZr19-5" value="Footer content" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="49" y="1665" width="550" height="30" as="geometry" />
+          <mxGeometry x="49" y="1625" width="550" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_3MZA-FHrIc1hK6y-JxS-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" parent="1" vertex="1">
           <mxGeometry x="10" y="150" width="810" height="250" as="geometry" />
@@ -260,8 +260,23 @@
         <mxCell id="_3MZA-FHrIc1hK6y-JxS-25" value="Experience the thrill of riding one of the Amazon’s most powerful rivers. Rapids, epic views, and an unforgettable journey await.&lt;br data-end=&quot;510&quot; data-start=&quot;507&quot;&gt;&lt;br&gt;&lt;strong data-end=&quot;549&quot; data-start=&quot;510&quot;&gt;Regular price: S/180 | Today: S/140&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="294" y="1100" width="240" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="hIjkYLytyyZ2hRDvCaDV-1" value="Sail through the sacred waters of the Sacred Valley, surrounded by breathtaking landscapes. Perfect for connecting with nature and Andean culture.&lt;br data-end=&quot;297&quot; data-start=&quot;294&quot;&gt;&lt;br&gt;&lt;strong data-end=&quot;336&quot; data-start=&quot;297&quot;&gt;Regular price: S/150 | Today: S/120&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1340" width="240" height="170" as="geometry" />
+        <mxCell id="_iO6705vRSxkNj4VBnm8-1" value="johndoe" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fontColor=#666666;align=left;spacingLeft=5;resizeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1400" width="350" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wWegTMo6esf96zOaNSdU-3" value="Name" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=14;fontColor=#666666;align=left;resizeWidth=1;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1370" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wWegTMo6esf96zOaNSdU-4" value="Join to our Adventure!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1300" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wWegTMo6esf96zOaNSdU-5" value="Email" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=14;fontColor=#666666;align=left;resizeWidth=1;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1440" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wWegTMo6esf96zOaNSdU-6" value="johndoe@gmail.com" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fontColor=#666666;align=left;spacingLeft=5;resizeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1470" width="350" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="b0_9PmOwhBycNySjA93H-1" value="I&#39;m ready!" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=5;strokeColor=none;fontColor=#ffffff;fillColor=#66bbff;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1510" width="330" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
