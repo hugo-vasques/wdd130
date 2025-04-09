@@ -361,7 +361,6 @@ figcaption {
 
 .hero-text {
     position: relative;
-    align-items: center;
 }
 
 .hero-image {
@@ -387,4 +386,10 @@ figcaption {
     left: 22%;
     font-size: 35px;
     font-family: "Archivo Narrow", sans-serif;
+}
+
+.CTAButton {
+    position: absolute;
+    left: 42%;
+    top: 450px;
 }
