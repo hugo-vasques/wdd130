@@ -581,8 +581,7 @@ figcaption {
 
 .trips-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     gap: 50px;
     padding: 40px;
     width: 100%;
@@ -597,4 +596,65 @@ figcaption {
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    color: var(--secondary-color);
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+
+thead {
+    background-color: var(--secondary-color);
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+tbody {
+    background-color: var(--accent1-color);
+    font-size: 1.6rem;
+
+}
+
+th,
+td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: var(--accent1-color);
+}
+
+.redirectionButton2 {
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 12px;
+}
+
+.CTAButton2 {
+    position: absolute;
+    left: 45%;
 }
